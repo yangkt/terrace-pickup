@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
+import CustomNav from './Nav';
+
 import Item from './Item';
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render(
   <React.StrictMode>
+    <CustomNav />
     <App />
-    <Item />
   </React.StrictMode>,
   document.getElementById('root')
 );
