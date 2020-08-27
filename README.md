@@ -1,7 +1,7 @@
 # Terrace Pickup React App
 ## Idea
 ## How to run
-You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine, as well as yarn which you can download with `brew install yarn`.  
+You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine, as well as yarn which you can download with `brew install yarn`.
 Run the following code for the first time:  
 ```  
 npm install

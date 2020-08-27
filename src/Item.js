@@ -3,7 +3,7 @@ import './css/Item.css';
 
 function Item() {
   return (
-    <div className="item-selector">
+    <div>
     </div>
     
   );

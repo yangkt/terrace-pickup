@@ -1,47 +1,49 @@
 .bar{
-  position: absolute;
-width: 1440px;
-height: 126px;
-left: 211px;
-top: 905px;
-
-background: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0%;
+  left: 0%;
+  background: #FFFFFF;
 }
 
-.profile{
-  position: absolute;
-width: 78px;
-height: 78px;
-left: 1524px;
-top: 929px;
+.bar .head {
+ /* fake header */
+  height: 100%;
+  width: 100%;
 }
 
-.icon{
+.text-frame img{
   position: absolute;
-  width: 106px;
-  height: 104px;
-  left: 238px;
-  top: 916px;
-  background: './assets/icon.jpeg'; 
+  width: 50px;
 }
+
+.bar .profile{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 90%;
+  padding:1%
+}
+
 .text-frame{
-  display: flex;
+     display: flex;
   flex-direction: row;
-  padding: 0px;
-
+  padding: 1%;
   position: absolute;
-  width: 947px;
+  width: 90%;
   height: 57px;
-  left: 417px;
-  top: 940px;
+  left: 8%;
+  float:left;
+  top: 0%;
 
 }
 
-button{
+.text-frame a{
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: 100;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 57px;
   text-align: center;
   color: #888888;
@@ -49,13 +51,15 @@ button{
   flex: none;
   order: 1;
   align-self: flex-start;
-  margin: 80px 0px;
-}
-button:visited {
-  color: #C80B2D;
-  border-bottom: 5px solid #C80B2D;
+  margin: 0px 2%;
 }
 
-button:active {
+.text-frame a:visited {
+  color: #C80B2D;
+  border: none;
+}
+
+.text-frame a:hover {
+  border:none; 
   color: #9F9F9F;
 }
