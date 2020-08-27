@@ -4,6 +4,7 @@ import { Container, Jumbotron, Button } from 'react-bootstrap'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { LinkContainer } from 'react-router-bootstrap';
 import './css/App.css';
+import BuildBurrito from './BuildBurrito';
 
 const Home = () => <span>Home</span>;
 

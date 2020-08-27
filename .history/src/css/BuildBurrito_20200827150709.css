@@ -1,0 +1,57 @@
+.build-burrito {
+
+background: #252827;
+}
+
+
+.header-text {
+position: center;
+margin-top: 100px;
+
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 76px;
+text-align: center;
+letter-spacing: 0.16em;
+color: #FFFFFF;
+}
+
+.ingredient-slct-group {
+position: center;
+}
+
+
+
+.ingredient-cat-text {
+position: center;
+margin-top: 200px;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.16em;
+
+color: #FFFFFF;
+margin-bottom: 100px;
+}
+
+.add-notes {
+position: center;
+width: 871px;
+height: 138px;
+top: 2767px;
+margin-top: 50px;
+margin-bottom: 100px;
+margin : auto;
+display: flex;
+
+background: #FFFFFF;
+box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}

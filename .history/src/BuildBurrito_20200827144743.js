@@ -15,16 +15,6 @@ function BuildBurrito() {
             <div className={'ingredient-cat-text'}> 
                 RICE
             </div>
-            <div className={'ingredient-cat-text'}> 
-                PROTEIN
-            </div>
-            <div className={'ingredient-cat-text'}> 
-                TOPPINGS
-            </div>
-            <div className={'ingredient-cat-text'}> 
-                ADDITIONAL NOTES
-                <div className = 'add-notes' />
-            </div>
         </div>
 
     </div>

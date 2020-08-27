@@ -4,7 +4,6 @@ import './css/index.css';
 import App from './App';
 import CustomNav from './Nav';
 
-
 import Item from './Item';
 import * as serviceWorker from './serviceWorker';
 

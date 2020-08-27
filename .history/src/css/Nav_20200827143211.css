@@ -40,8 +40,8 @@
 }
 
 .text-frame a{
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif, "Segoe UI";
-  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: light;
   font-weight: 100;
   font-size: 30px;
   line-height: 57px;

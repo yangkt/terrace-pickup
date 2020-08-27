@@ -23,7 +23,6 @@ function BuildBurrito() {
             </div>
             <div className={'ingredient-cat-text'}> 
                 ADDITIONAL NOTES
-                <div className = 'add-notes' />
             </div>
         </div>
 
