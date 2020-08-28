@@ -4,8 +4,11 @@
 You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine, as well as yarn which you can download with `brew install yarn`.
 Run the following code for the first time:  
 ```  
+cd react-app
 npm install
-yarn start  
+yarn build
+cd ./flask-server
+python3 main.py
 ```  
 For the rest of the instructions, regarding yarn please view the [full stack workshop](https://github.com/HackOurCampus/fullstack-integration-workshop/blob/master/frontend/README.md)  
 
