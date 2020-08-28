@@ -4,3 +4,5 @@ key.json
 node_modules
 .history
 package-lock.json
+flask-server/static/*
+flask-server/templates/*
