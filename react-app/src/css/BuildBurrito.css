@@ -74,6 +74,12 @@
 
 }
 
+.image-group button:visited {
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
 .ing-slct {
     margin: 15px;
     border-radius: 20px;

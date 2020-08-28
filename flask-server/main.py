@@ -6,19 +6,7 @@ cache = {}
 
 @app.route("/")
 def my_index():
-    return render_template("index.html", test_token = "oof")
-
-
-@app.route("/test")
-def test():
-    return render_template("index.html", test_token = "help")
-
-
-@app.route('/result',methods = ['POST', 'GET'])
-def result():
-   if request.method == 'POST':
-      result = request.form
-      return render_template("index.html",result = result)
+    return render_template("index.html")
 
 # @app.route("/increment")
 # def increment():

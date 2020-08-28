@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { MemoryRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar, Button } from 'react-bootstrap'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { LinkContainer } from 'react-router-bootstrap';
 import './css/App.css';
 import BuildBurrito from './BuildBurrito'
+import RestaurantSide from './RestaurantSide'
+
 import land from './assets/land.png'
 import login from './assets/login.png'
 import loginbutton from './assets/loginwnetid.png'
@@ -13,6 +15,9 @@ import macsbutton from './assets/macsbutton.png'
 import terracebutton from './assets/terracebutton.png'
 import header1 from './assets/header.png'
 import header2 from './assets/header2.png'
+import header3 from './assets/header3.png'
+
+import staff from './assets/staff.png'
 
 
 const Nav1 = () => {
@@ -31,6 +36,14 @@ const Nav2 = () => {
   );
 }
 
+const NavStaff = () => {
+  return (
+    <Navbar sticky="top">
+      <img src={header3} alt="fake header"></img>
+    </Navbar>
+  );
+}
+
 const Land = () => {
   return (
     <span>
@@ -41,6 +54,9 @@ const Land = () => {
         <img className="login-button" src={loginbutton} alt="login"></img>
       </LinkContainer>
       <img className="guest-login" src={guestbutton} alt="guest"></img>
+      <LinkContainer to="/staff">
+        <img className="staff-button" src={staff} alt="staff login"></img>
+      </LinkContainer>
     </span>
   );
 }
@@ -64,9 +80,12 @@ const Land2 = () => {
 class App extends Component {
   render() {
     return (
-      <MemoryRouter>
+      <Router>
         {' '}
         <Switch>
+          <Route exact path="/">
+            <Land />
+          </Route>
           <Route path="/burrito">
             <Nav2 />
             <BuildBurrito />
@@ -80,8 +99,9 @@ class App extends Component {
           <Route path="/land2">
             <Land2 />
           </Route>
-          <Route path="/">
-            <Land />
+          <Route path="/staff">
+            <NavStaff />
+            <RestaurantSide />
           </Route>
         </Switch>
             Navigate to{' '}
@@ -89,11 +109,11 @@ class App extends Component {
           <LinkContainer to="/">
             <Button>Home</Button>
           </LinkContainer>
-          <LinkContainer to="/burrito">
-            <Button>Build Burrito</Button>
+          <LinkContainer to="/staff">
+            <Button>staff site</Button>
           </LinkContainer>
         </ButtonToolbar>
-      </MemoryRouter >
+      </Router >
     );
   }
 }
