@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/react/static/css/main.61a60003.chunk.css",
-    "main.js": "/static/react/static/js/main.187353c3.chunk.js",
-    "main.js.map": "/static/react/static/js/main.187353c3.chunk.js.map",
+    "main.css": "/static/react/static/css/main.77555c87.chunk.css",
+    "main.js": "/static/react/static/js/main.0fd4ed2f.chunk.js",
+    "main.js.map": "/static/react/static/js/main.0fd4ed2f.chunk.js.map",
     "runtime-main.js": "/static/react/static/js/runtime-main.1bfd1114.js",
     "runtime-main.js.map": "/static/react/static/js/runtime-main.1bfd1114.js.map",
-    "static/js/2.94f84998.chunk.js": "/static/react/static/js/2.94f84998.chunk.js",
-    "static/js/2.94f84998.chunk.js.map": "/static/react/static/js/2.94f84998.chunk.js.map",
+    "static/js/2.a7010c8e.chunk.js": "/static/react/static/js/2.a7010c8e.chunk.js",
+    "static/js/2.a7010c8e.chunk.js.map": "/static/react/static/js/2.a7010c8e.chunk.js.map",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "precache-manifest.bbc3d0a8b70bb285a09708be6bf41b47.js": "/static/react/precache-manifest.bbc3d0a8b70bb285a09708be6bf41b47.js",
+    "precache-manifest.f9226e62fe57e69bdfeb389978b82fa3.js": "/static/react/precache-manifest.f9226e62fe57e69bdfeb389978b82fa3.js",
     "service-worker.js": "/static/react/service-worker.js",
-    "static/css/main.61a60003.chunk.css.map": "/static/react/static/css/main.61a60003.chunk.css.map",
-    "static/js/2.94f84998.chunk.js.LICENSE.txt": "/static/react/static/js/2.94f84998.chunk.js.LICENSE.txt",
+    "static/css/main.77555c87.chunk.css.map": "/static/react/static/css/main.77555c87.chunk.css.map",
+    "static/js/2.a7010c8e.chunk.js.LICENSE.txt": "/static/react/static/js/2.a7010c8e.chunk.js.LICENSE.txt",
     "static/media/Bowl.png": "/static/react/static/media/Bowl.bed7151d.png",
     "static/media/Tacos.png": "/static/react/static/media/Tacos.7488ad1b.png",
     "static/media/beans.png": "/static/react/static/media/beans.00ee25bb.png",
@@ -20,17 +20,21 @@
     "static/media/chicken.png": "/static/react/static/media/chicken.1d282bee.png",
     "static/media/header.png": "/static/react/static/media/header.1aefb134.png",
     "static/media/icon.jpeg": "/static/react/static/media/icon.8aec341f.jpeg",
-    "static/media/land.png": "/static/react/static/media/land.385ee7d2.png",
+    "static/media/land.png": "/static/react/static/media/land.badea85b.png",
+    "static/media/login.png": "/static/react/static/media/login.5ef10870.png",
+    "static/media/loginwnetid.png": "/static/react/static/media/loginwnetid.79dcb40e.png",
+    "static/media/macsbutton.png": "/static/react/static/media/macsbutton.a5a6c9e7.png",
     "static/media/onions.png": "/static/react/static/media/onions.5a833d89.png",
     "static/media/peppers.png": "/static/react/static/media/peppers.b06a9a86.png",
     "static/media/pork.png": "/static/react/static/media/pork.23ed2f1b.png",
     "static/media/steak.png": "/static/react/static/media/steak.79ba691a.png",
+    "static/media/terracebutton.png": "/static/react/static/media/terracebutton.bfd18e71.png",
     "static/media/white rice.png": "/static/react/static/media/white rice.3bcd1ae1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1bfd1114.js",
-    "static/js/2.94f84998.chunk.js",
-    "static/css/main.61a60003.chunk.css",
-    "static/js/main.187353c3.chunk.js"
+    "static/js/2.a7010c8e.chunk.js",
+    "static/css/main.77555c87.chunk.css",
+    "static/js/main.0fd4ed2f.chunk.js"
   ]
 }
