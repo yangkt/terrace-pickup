@@ -3,12 +3,12 @@ import './css/RestaurantSide.css';
 import OrdersLeft from './assets/orders left.png';
 import DoneButton from './assets/done button.png'
 
-class RestaurantSide extends Component {
+class RestaurantSide  extends Component {
 
-    constructor(props){
-        super(props);
+    constructor(props) {
+        super(props)
         this.state = {
-            order: 'Burrito Bowl with: \nwhite rice\nchicken\nonions\npeppers'
+            order: props.order
         }
     }
 

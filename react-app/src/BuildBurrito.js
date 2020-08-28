@@ -18,12 +18,9 @@ class BuildBurrito extends Component {
         super(props);
         this.state = {
             order: '',
-            addNotes: ''
+            addNotes: '',
+            addIngredient: props.addIng
         }
-    }
-
-    addIng = (input) => {
-        this.setState({ order: this.state.order + input})
     }
 
     addNotes = (input) => {
@@ -41,15 +38,15 @@ class BuildBurrito extends Component {
                     BASE
                     <div className = 'image-group'>
 
-                        <button className='ing-image' onClick={() => this.addIng('Burrito Bowl: ')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('Burrito Bowl: ')} >
                             <img src={Bowl} className = 'ing-image' alt='bowl'/>
                         </button>
                         
-                        <button className='ing-image' onClick={() => this.addIng('Tacos: ')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('Tacos: ')} >
                             <img src={Tacos} className = 'ing-image' alt='tacos' />
                         </button>
 
-                        <button className='ing-image' onClick={() => this.addIng('Burrito: ')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('Burrito: ')} >
                             <img src={Burrito} className = 'ing-image' alt='burrito'/>
                         </button>
                     </div>
@@ -57,11 +54,11 @@ class BuildBurrito extends Component {
                 </div>
                 <div className={'ingredient-cat-text'}> 
                     RICE
-                    <div className = 'image-group' onClick={() => this.addIng('\nwhite rice')}>
+                    <div className = 'image-group' onClick={() => this.props.addIngredient('\nwhite rice')}>
                         <button className='ing-image' >
                             <img src={WRice} className = 'ing-image' alt='white rice' />
                         </button>
-                        <button className='ing-image' onClick={() => this.addIng('\nbrown rice')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\nbrown rice')} >
                             <img src={BRice} className = 'ing-image' alt ='brown rice'/>
                         </button>
                     </div>
@@ -69,13 +66,13 @@ class BuildBurrito extends Component {
                 <div className={'ingredient-cat-text'}> 
                     PROTEIN
                     <div className = 'image-group'>
-                        <button className='ing-image' onClick={() => this.addIng('\nchicken')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\nchicken')} >
                             <img src={Chicken} className = 'ing-image' alt='chicken' />
                         </button>
-                        <button className='ing-image' onClick={() => this.addIng('\npork')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\npork')} >
                             <img src={Pork} className = 'ing-image' alt='pork'/>
                         </button>
-                        <button className='ing-image' onClick={() => this.addIng('\nsteak')}>
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\nsteak')}>
                             <img src={Steak} className = 'ing-image' alt='steak' />
                         </button>
                     </div>
@@ -83,13 +80,13 @@ class BuildBurrito extends Component {
                 <div className={'ingredient-cat-text'}> 
                     TOPPINGS
                     <div className = 'image-group'>
-                        <button className='ing-image' onClick={() => this.addIng('\nbeans')}>
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\nbeans')}>
                             <img src={Beans} className = 'ing-image' alt='beans' />
                         </button>
-                        <button className='ing-image' onClick={() => this.addIng('\nonions')}>
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\nonions')}>
                             <img src={Onions} className = 'ing-image' alt='onions' />
                         </button>
-                        <button className='ing-image' onClick={() => this.addIng('\npeppers')} >
+                        <button className='ing-image' onClick={() => this.props.addIngredient('\npeppers')} >
                             <img src={Peppers} className = 'ing-image' alt='peppers' />
                         </button>
                     </div>

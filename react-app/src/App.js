@@ -78,6 +78,19 @@ const Land2 = () => {
 
 
 class App extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+        order: ''
+    }
+  }
+
+
+  addIng = (input) => {
+    this.setState({ order: this.state.order + input})
+  }
+
   render() {
     return (
       <Router>
@@ -88,7 +101,7 @@ class App extends Component {
           </Route>
           <Route path="/burrito">
             <Nav2 />
-            <BuildBurrito />
+            <BuildBurrito addIngredient = {this.addIng}/>
           </Route>
           <Route path="/login">
             <LinkContainer to="/land2">
@@ -101,7 +114,7 @@ class App extends Component {
           </Route>
           <Route path="/staff">
             <NavStaff />
-            <RestaurantSide />
+            <RestaurantSide order = {this.state.order}/>
           </Route>
         </Switch>
             Navigate to{' '}
