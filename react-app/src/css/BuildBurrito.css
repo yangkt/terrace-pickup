@@ -1,0 +1,81 @@
+.build-burrito {
+    background: #252827;
+    background-color: #252827;
+}
+
+
+.header-text {
+    position: center;
+    margin-top: 100px;
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+}
+
+.ingredient-slct-group {
+    position: center;
+    height: 90%;
+    background-color: #252827;
+}
+
+
+
+.ingredient-cat-text {
+    position: center;
+    margin-top: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.16em;
+
+    color: #FFFFFF;
+    height: 90%;
+}
+
+.add-notes {
+    position: center;
+    width: 871px;
+    height: 138px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin : auto;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 0.07em;
+    color: #252827;
+}
+
+.image-group {
+    position: center;
+    width: 100%;
+}
+
+.ing-image {
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.ing-slct {
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px solid red;
+  }
