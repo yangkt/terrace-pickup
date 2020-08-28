@@ -2,3 +2,5 @@ __pycache__
 key.json
 .DS_Store
 node_modules
+.history
+package-lock.json
