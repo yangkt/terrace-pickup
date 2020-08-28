@@ -3,6 +3,6 @@ key.json
 .DS_Store
 react-app/node_modules
 .history
-react-app/package-lock.json
-flask-server/static/react
-flask-server/templates/
+package-lock.json
+flask-server/static/*
+flask-server/templates/*
