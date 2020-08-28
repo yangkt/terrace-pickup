@@ -1,22 +1,19 @@
 .rest-order-page {
     background: #252827;
     background-color: #252827;
+    height: 2000px;
+    width: 100%
 }
+
 
 .orders-left {
-    
-    position: absolute;
-    width: 119.63px;
-    height: 170px;
-    left: 82px;
-    top: 121px;
-
+    position: top;
+    float: left;
 }
 
-
 .header-text {
-    position: center;
-    margin-top: 100px;
+    position: top;
+    float: center;
 
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
@@ -29,9 +26,82 @@
 }
 
 .order-main {    
-    position: absolute;
+    position: center;
+    float: center;
+    margin: auto;
     width: 832px;
     height: 630px;
-    left: 304px;
-    top: 305px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
 }
+
+.text-box {
+    position: center;
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+.text-name {
+    position: center;
+    width: 80%;
+    margin-top: 75px;
+    left: 368.35px;
+    top: 364.86px;
+    margin-top: 75px;
+    padding-top: 75px;
+
+    /* box header */
+
+    font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #000000;
+
+}
+
+.text-order-number {
+    position: center;
+    left: 368.35px;
+    top: 425.21px;
+    margin-bottom: 20px;;
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+
+
+
+color: #898989;
+}
+
+.text-ings {
+
+    position: center;
+    left: 368.35px;
+    top: 575.85px;
+
+    margin-top: 40px;
+
+    font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #000000;
+}
+
+.done-button {
+    position: bottom;
+    float: right;
+    margin-right: 50px;
+   }
