@@ -8,6 +8,7 @@ cd react-app
 npm install
 yarn build
 cd ./flask-server
+pip3 install flask
 python3 main.py
 ```  
 For the rest of the instructions, regarding yarn please view the [full stack workshop](https://github.com/HackOurCampus/fullstack-integration-workshop/blob/master/frontend/README.md)  

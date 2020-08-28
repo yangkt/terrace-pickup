@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import CustomNav from './Nav';
+import Calculator from './Item';
 
-
-import Item from './Item';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -13,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <CustomNav />
     <App />
+    <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/react/static/css/main.0af92dd3.chunk.css",
-    "main.js": "/static/react/static/js/main.6ea78388.chunk.js",
-    "main.js.map": "/static/react/static/js/main.6ea78388.chunk.js.map",
+    "main.css": "/static/react/static/css/main.983a7808.chunk.css",
+    "main.js": "/static/react/static/js/main.a3d6e6eb.chunk.js",
+    "main.js.map": "/static/react/static/js/main.a3d6e6eb.chunk.js.map",
     "runtime-main.js": "/static/react/static/js/runtime-main.1bfd1114.js",
     "runtime-main.js.map": "/static/react/static/js/runtime-main.1bfd1114.js.map",
-    "static/js/2.9e37b92d.chunk.js": "/static/react/static/js/2.9e37b92d.chunk.js",
-    "static/js/2.9e37b92d.chunk.js.map": "/static/react/static/js/2.9e37b92d.chunk.js.map",
+    "static/js/2.a7918a49.chunk.js": "/static/react/static/js/2.a7918a49.chunk.js",
+    "static/js/2.a7918a49.chunk.js.map": "/static/react/static/js/2.a7918a49.chunk.js.map",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "precache-manifest.803ece08c9f86aa5eb93e96cca154000.js": "/static/react/precache-manifest.803ece08c9f86aa5eb93e96cca154000.js",
+    "precache-manifest.435019769bd9c3085a1f177479959b2a.js": "/static/react/precache-manifest.435019769bd9c3085a1f177479959b2a.js",
     "service-worker.js": "/static/react/service-worker.js",
-    "static/css/main.0af92dd3.chunk.css.map": "/static/react/static/css/main.0af92dd3.chunk.css.map",
-    "static/js/2.9e37b92d.chunk.js.LICENSE.txt": "/static/react/static/js/2.9e37b92d.chunk.js.LICENSE.txt",
-    "static/media/icon.jpeg": "/static/react/static/media/icon.8aec341f.jpeg"
+    "static/css/main.983a7808.chunk.css.map": "/static/react/static/css/main.983a7808.chunk.css.map",
+    "static/js/2.a7918a49.chunk.js.LICENSE.txt": "/static/react/static/js/2.a7918a49.chunk.js.LICENSE.txt",
+    "static/media/header.png": "/static/react/static/media/header.1aefb134.png",
+    "static/media/icon.jpeg": "/static/react/static/media/icon.8aec341f.jpeg",
+    "static/media/land.png": "/static/react/static/media/land.385ee7d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1bfd1114.js",
-    "static/js/2.9e37b92d.chunk.js",
-    "static/css/main.0af92dd3.chunk.css",
-    "static/js/main.6ea78388.chunk.js"
+    "static/js/2.a7918a49.chunk.js",
+    "static/css/main.983a7808.chunk.css",
+    "static/js/main.a3d6e6eb.chunk.js"
   ]
 }
