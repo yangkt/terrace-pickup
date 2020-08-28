@@ -1,6 +1,8 @@
 __pycache__
 key.json
 .DS_Store
-node_modules
+react-app/node_modules
 .history
-package-lock.json
+react-app/package-lock.json
+flask-server/static/react
+flask-server/templates/
