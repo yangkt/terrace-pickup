@@ -24,6 +24,7 @@ class RestaurantSide  extends Component {
                     <div className = 'text-name'>
                         JOHN D.
                     </div>
+
                     <div className = 'text-order-number'>
                         Order # 12345
                     </div>
@@ -31,6 +32,10 @@ class RestaurantSide  extends Component {
                     <div className = 'text-ings'>
                         {this.state.order}
 
+                    </div>
+
+                    <div className = 'text-notes'>
+                        Notes:
                     </div>
                     
                 </div> 

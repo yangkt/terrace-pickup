@@ -105,3 +105,24 @@ color: #898989;
     float: right;
     margin-right: 50px;
    }
+
+.text-notes {
+    position: buttom;
+    float: left;
+    left: 368.35px;
+    margin-bottom: 100px;
+    padding-top: 130px;
+
+
+    /* body text */
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+
+
+color: #000000;
+}
