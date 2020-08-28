@@ -4,5 +4,6 @@ key.json
 react-app/node_modules
 .history
 package-lock.json
-flask-server/static/*
-flask-server/templates/*
+flask-server/static/
+flask-server/static/react/
+flask-server/templates/
